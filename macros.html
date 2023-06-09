@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <title>Basic Rogue Guide World of Warcraft</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav class="nav-container">
+        <div class="logo-container">
+          <a href="#index" class="logo" id="logo-tittle"
+            ><img
+              src="images/rogue01.png"
+              alt="rogue-logo"
+              width="69"
+              height="69"
+          /></a>
+        </div>
+        <ul class="nav-ul">
+          <li class="nav-li"><a href="index.html">Home</a></li>
+          <li class="nav-li"><a href="pvp.html">PVP Guide</a></li>
+          <li class="nav-li"><a href="pve.html">PVE Guide</a></li>
+          <li class="nav-li"><a href="macros.html">Macros</a></li>
+          <li class="nav-li"><a href="talents.html">Talents</a></li>
+          <li class="nav-li"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="tittle-container">
+        <h1>Rogue</h1>
+        <h3>Macros</h3>
+      </div>
+    </header>
+    <main>
+      <section class="macros-container">
+        <div class="macros-section">
+          <img
+            src="images/macros.png"
+            alt="macros interface from world of warcraft video game"
+          />
+        </div>
+      </section>
+
+      <!-- MACROS SECTION BODY -->
+      <section class="macros-block">
+        <div class="macros-ul">
+          <p class="macros-p">General Macros</p>
+          <div class="macros-li">Spammable Stealth</div>
+          <div class="macro">
+            #showtooltip Stealth
+            <br />/cast !stealth
+          </div>
+          <p>
+            This macro allows you to spam your Stealth IconStealth without
+            unstealthing yourself by mistake.
+          </p>
+
+          <div class="macros-li">Overkill Buff</div>
+          <div class="macro">
+            /cancelaura Stealth
+            <br />/cast Stealth
+          </div>
+          <p>
+            This macro will allow you to double-tap a single button to enter and
+            exit Stealth IconStealth to trigger the buff from
+          </p>
+
+          <div class="macros-li">Applying Poisons with One Button</div>
+          <div class="macro">
+            #showtooltip Deadly Poison IX
+            <br />
+            /use Deadly Poison IX;<br />
+            /use [button:1] 16; [button:2] 17;<br />
+            /click StaticPopup1Button1
+          </div>
+          <p>
+            This allows you to add poisons to your weapons with a single press
+            of each of your primary and secondary mouse buttons.
+          </p>
+
+          <div class="macros-li">Swapping Off-Hand Weapons</div>
+          <div class="macro">
+            /equipslot 17 WeaponName1<br />/equipslot 17 WeaponName2
+          </div>
+          <p>
+            Replace the "WeaponNameX" with your real weapon names and this macro
+            will allow you to swap your off-hand weapons with a single button
+            press.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="footer-ul">
+        <li class="footer-li">
+          <a href="#">&#169; Copyright 2022. All Rights Reserved</a>
+        </li>
+        <li class="footer-li">
+          <a href="mailto:apenarandaherna0001@kctcs.edu"
+            >apenarandaherna0001@kctcs.edu</a
+          >
+        </li>
+        <li class="footer-li">
+          <a href="https://worldofwarcraft.com/en-us/."
+            >www.worldofwarcraft.com</a
+          >
+        </li>
+        <li class="footer-li">
+          <a
+            href="https://www.warcrafttavern.com/wotlk/guides/pve-combat-rogue/"
+            >www.warcrafttavern.com</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

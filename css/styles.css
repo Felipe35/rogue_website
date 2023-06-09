@@ -1,0 +1,1236 @@
+/* Style Rule to reset values */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* width: 100%;
+  background-color: black;
+  font-family: "Abel", sans-serif;
+  color: #ffff;
+  display: flex;
+  justify-content: center; */
+
+  /* border: 1px dotted rgb(100, 22, 202); */
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* min-height: 100vh; */
+  background-color: #2e2e2e;
+  position: relative;
+  /* padding-bottom: 40px; */
+  font-family: "Oswald", sans-serif;
+  background: linear-gradient(to left, #696666, #302f2f);
+  font-size: 20px;
+}
+
+/* Style Rule for container class */
+/* .container {
+  border: 1px dotted rgb(239, 28, 28);
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #2e2e2e;
+  position: relative;
+  padding-bottom: 40px;
+} */
+
+header {
+  /* height: 20em; */
+  /* width: 100%; */
+  z-index: 1500;
+
+  /* border: 2px dotted rgb(33, 171, 79); */
+}
+/* Style Rule for nav, ul */
+nav {
+  background-color: #19191b;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: #893fb7;
+}
+
+nav a:hover {
+  color: #b087c9;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-li {
+  /* background-color: black; */
+  padding: 10px 20px 10px 20px;
+  font-size: 2em;
+}
+
+/* Style Rule for tittle container sub - class  */
+.tittle-container {
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+.tittle-container h3 {
+  padding-top: 20px;
+}
+
+/* Style Rule for banner */
+.banner {
+  width: 100%;
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner img {
+  width: 100%;
+  /* border: 20px solid black; */
+  border-radius: 5px;
+  align-self: center;
+}
+
+/* Style Rule for main */
+main {
+  /* padding: 0 20px 20px 20px; */
+  padding: 2%;
+}
+
+/* Style Rule for summary container h2 */
+.summary-container {
+  /* font-size: 2em; */
+  height: 100%;
+}
+/* Style Rules for section class info summary container */
+.summary-aboutClass {
+  width: 100%;
+
+  /* padding-bottom: 40em; */
+  /* height: 100%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style Rule for class info and ul lists */
+.summary-text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.summary-text-container p {
+  height: 10em;
+  /* font-size: 18px; */
+}
+
+/* Style Rule for ul summary */
+
+.summary-rogue {
+  list-style: none;
+}
+.summary-aboutClass p {
+  width: 40em;
+  text-align: left;
+  line-height: 1.5em;
+  padding-bottom: 30px;
+  /* font-size: 1.5em; */
+}
+
+/*Style Rule for Specialization section h2 - p */
+.spec-h2 {
+  padding-top: 2.5em;
+}
+/* Style Rule for features */
+.summary-aboutClass-features {
+  width: 50%;
+  height: 100%;
+  padding-bottom: 40px;
+  background-image: url(/images/vertical-mist.jpg);
+  border-radius: 5px;
+  /* background-repeat: no-repeat; */
+}
+
+/* Style Rule for spec-contaner */
+.spec-container {
+  width: 55em;
+  height: 25em;
+  padding: 2%;
+  /* border: 2px dotted white; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Sytle Rule for spec blocks */
+.spec-block {
+  width: 25em;
+  height: 10em;
+  margin: 1%;
+  color: #fff;
+  background-color: #060606;
+  /* border: 2px dotted white; */
+}
+
+/* BTN Open */
+.contact-btn {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 1%;
+}
+
+/* .contact-btn button {
+  font-size: 1em;
+  padding: 1%;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  color: #ffff;
+  cursor: pointer;
+} */
+.btn,
+.btn_close {
+  font-size: 1em;
+  padding: 1%;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  color: #ffff;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn_close:hover {
+  background-color: #fffefe;
+  color: rgba(0, 0, 0, 0.976);
+  cursor: pointer;
+}
+/* Style Rule for spec img and tittle */
+.spec-img-tittle {
+  display: flex;
+  padding-left: 15px;
+  /* border: 1px dotted white; */
+}
+
+.spec-img-tittle h3 {
+  padding: 15px 20px;
+}
+/* Style Rule for spec text p container */
+.spec-text-container {
+  display: flex;
+  padding-left: 15px;
+  flex-wrap: nowrap;
+  padding-top: 15px;
+  width: 20em;
+  /* border: 1px dotted white; */
+}
+.spec-text-container p {
+  line-height: 1.5em;
+}
+/* Style Rule for image container */
+
+.features {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.image-container {
+  position: absolute;
+  top: -4em;
+}
+
+.features-tittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 15em;
+  /* background-color: rgb(220, 225, 223); */
+}
+
+.features-tittle h2 {
+  text-align: center;
+
+  /* padding-top: 20px; */
+}
+
+/* Style Rules for features images */
+.features-list-img {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  border: 1px solid black;
+  display: none;
+}
+
+/* Style Rule for features container blocks */
+.features-container-blocks {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* border: 2px solid black; */
+  padding-left: 10px;
+}
+
+/* Style Rules for features blocks - BLOCK ONE */
+.blockOne {
+  width: 20%;
+  height: 100px;
+  /* background-color: red; */
+}
+
+.blockTwo {
+  width: 20%;
+  height: 100px;
+  /* background-color: rgb(45, 154, 101); */
+}
+
+.blockThree {
+  width: 20%;
+  height: 100px;
+  /* background-color: rgb(39, 97, 184); */
+}
+
+.blockFour {
+  width: 20%;
+  height: 100px;
+  /* background-color: rgb(39, 97, 184); */
+}
+
+/* Style Rules for features blocks images */
+.features-img img {
+  width: 5em;
+}
+
+/* Style Rule for fatures tittle and text container */
+.features-tittle-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 150px;
+  /* background-color: darkgreen; */
+}
+
+.features-tittle-text p:first-child {
+  /* position: relative; */
+  width: 10em;
+  height: 10px;
+  font-weight: bold;
+  /* background-color: crimson; */
+}
+.features-tittle-text p:last-child {
+  /* text-align: center; */
+  /* color: #ffff; */
+  /* background-color: aqua; */
+  width: 27.5em;
+  line-height: 1.5em;
+}
+
+/* Styles Rules for PVP - PVE html links */
+/* Style Rule for pvp sectiom images */
+.intro-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 5em;
+}
+.pvp-section-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.pvp-section img {
+  width: 500px;
+  height: 500px;
+  border: 0.5em solid black;
+  border-radius: 5px;
+}
+/* Style Rule for introduction pvp */
+.intro {
+  padding-bottom: 20px;
+}
+
+.intro-tittle {
+  padding-bottom: 10px;
+  color: #e7e30e;
+}
+/* Style Rule for h1 strengths and weaknesses */
+.h4-strengths {
+  /* font-weight: bold; */
+  /* font-size: 30px; */
+  color: #72df8f;
+}
+.h4-Weaknesses {
+  /* font-weight: bold; */
+  /* font-size: 30px; */
+  color: #ca3939;
+}
+
+/* Style Rule for ul section list */
+.ul-list-strengths,
+.ul-list-weaknesses {
+  padding-left: 10px;
+  list-style: none;
+}
+.list {
+  font-weight: bold;
+  padding: 20px 5px 20px 5px;
+}
+
+/* Style Rule for list strength and weaknesses lists */
+.green {
+  color: #72df8f;
+}
+
+.red {
+  color: #ca3939;
+}
+.list-text {
+  padding-bottom: 25px;
+  line-height: 1.5em;
+  list-style: none;
+}
+/* Style Rule for pvp h1 weaknesses */
+/* .pvp-h1-Weaknesses {
+  padding: ;
+} */
+/*Style Rule for pve section - images */
+.pve-section-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.pve-section img {
+  width: 500px;
+  height: 500px;
+  border: 1em solid black;
+  border-radius: 5px;
+}
+
+/* Style Rule for MACROS html */
+.macros-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.macros-container img {
+  width: 500px;
+  height: 500px;
+  /* border: 1em solid black; */
+  border-radius: 5px;
+}
+
+/* Style Rule for macros block */
+.macros-block {
+  width: 100%;
+  height: 35em;
+  /* border: 1px solid wheat; */
+}
+
+.macros-ul {
+  padding-left: 10px;
+  list-style: none;
+  /* border: 1px solid white; */
+}
+
+.macros-p {
+  font-weight: bold;
+  font-size: 30px;
+}
+.macros-li {
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+}
+
+.macro {
+  font-family: "Fira Code", monospace;
+  color: #8f8f8f;
+}
+
+/* Style Rule for TALENTS PVE - PVP */
+
+.talents-container {
+  /* border: 1px solid white; */
+
+  width: 100%;
+}
+.talents-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.talents-section img {
+  width: 500px;
+  height: 500px;
+  border: 1em solid black;
+  border-radius: 5px;
+}
+
+.talents-text {
+  font-size: 15em;
+}
+
+.talents-container-img {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0 30px 0;
+  height: 30em;
+  width: 100%;
+  margin: 1%;
+  text-align: center;
+  /* border: 1px solid white; */
+}
+
+.pve-talents {
+  width: 50%;
+  /* height: 30em; */
+
+  /* background-image: url(http://1.bp.blogspot.com/-hUJP0-wT8Dw/UHvLQ88KXLI/AAAAAAAAAhU/ZQJ0o2toFPg/s1600/Combat+PVE+Build+-+Rogue.jpg); */
+}
+
+.pve-talents img {
+  width: 20em;
+  height: 20em;
+}
+
+.pvp-talents {
+  width: 50%;
+}
+.pvp-talents img {
+  width: 20em;
+  height: 20em;
+}
+/* Style Rule for h2 tittle */
+.summary-tittle {
+  padding-bottom: 20px;
+}
+
+/* Style Rule for summary-aboutClass */
+.summary-aboutClass {
+  padding-bottom: 30px;
+}
+
+.summary-rogue {
+  /* background: linear-gradient(to right #e3d1e2, #bf4bc7000); */
+  margin-left: 1em;
+}
+.summary-li {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.summary-sub-li {
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+/* Style rule for TIPS ARTICLE pvp and pve */
+
+.tips-links-container {
+  padding: 1%;
+  width: 100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1%;
+  width: 40%;
+  grid-gap: 15px;
+}
+
+/* Style rule for tips class links */
+.tips-links-class {
+  display: flex;
+  border: 1px solid #b5b4b4;
+  background-color: #2f2e2e;
+}
+
+.tips-links-class figcaption {
+  padding: 1% 2% 1% 2%;
+  align-self: center;
+  font-size: 1.25em;
+  width: 100%;
+}
+
+.tips-links-class figcaption a {
+  text-decoration: none;
+  color: #893fb7;
+}
+
+.tips-links-class figcaption a:hover {
+  color: #b087c9;
+}
+
+.tips-links-class a img {
+  height: 100%;
+}
+
+/* Style rule for tips-links-contianer paragrhap */
+.section-p-intro {
+  width: 80%;
+  border: 2px solid #706f6f;
+  /* background-color: rgb(50, 47, 47); */
+}
+
+/* Style rule for figure img */
+.figure-container {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.figure-container figcaption {
+  align-self: center;
+  padding: 1%;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+/* Style rule for RACES TABLE */
+table {
+  /* color: #ffe5dc; */
+  font-family: sans-serif;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto 0 auto;
+  border: 8px solid #706f6f;
+  box-shadow: #792101;
+  /* background-color: #ffe5dc; */
+}
+
+/* Style rule for table, tr, th, td */
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  padding: 2%;
+}
+
+/* Sytle rule for caption */
+caption {
+  /* color: rgb(149, 55, 40); */
+  font-size: 2em;
+  padding: 2%;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+.caption-tittle {
+  /* display: flex; */
+}
+
+/* Style rule for th, td */
+th,
+td {
+  font-size: 1.2em;
+  /* border: 2px solid #fe9772; */
+}
+
+tr {
+  border: 2px solid black;
+}
+.row-1 td:first-child {
+  display: flex;
+  justify-content: center;
+}
+
+.row-2 td:first-child {
+  display: flex;
+  justify-content: center;
+}
+
+.row-3 td:first-child {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style rules for PROFESSION HTML PAGE */
+/* Style rule for pvp-profession page */
+.pvp-profession-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+
+/* Style rule for figure img */
+.pvp-profession-img figcaption {
+  text-align: center;
+  background-color: #2f2e2e;
+  border: 1px solid #666565;
+  color: #ffff;
+  font-size: 2em;
+}
+
+/* Style rule for column 2 pvp-profession */
+.pvp-profession-colum-2 {
+  text-align: justify;
+  padding: 2%;
+  margin-left: 1%;
+  background-color: #2f2e2e;
+  border: 1px solid #666565;
+  border-radius: 5px;
+  color: #ffff;
+  height: 20%;
+}
+.pvp-profession-colum-2 p {
+  line-height: 2em;
+}
+/* .pvp-profession-colum-2 p:first-child {
+  font-weight: bold;
+  font-size: 1.25em;
+} */
+
+.pvp-profession-container-2 {
+  padding: 1% 1% 6% 1%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+/* Style rule for STATS HTML PAGE */
+/* Style rule for stats-container */
+.stats-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1%;
+}
+
+.stats-column-1 {
+  padding: 2%;
+}
+
+.stats-column-1 ul {
+  list-style: none;
+  line-height: 2em;
+}
+
+/* Style rule for STATS tats-column-2 */
+.stats-column-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  grid-gap: 20px;
+}
+
+.stats-column-2 p {
+  background-color: #2f2e2e;
+  color: #fff;
+  border: 1px solid #b5b4b4;
+  padding: 1%;
+  line-height: 2em;
+}
+
+.stats-column-2 h3 {
+  background-color: #2f2e2e;
+  color: #fff;
+  border: 1px solid #b5b4b4;
+  padding: 1%;
+  text-align: center;
+  align-self: center;
+}
+.stats-column-2 h2 {
+  background-color: #2f2e2e;
+  color: #fff;
+  border: 1px solid #b5b4b4;
+  text-align: center;
+  grid-column: 1 / span 2;
+}
+
+/* Styles rules for CONTACT HTML page */
+/* Style rule for form */
+/* .btn_container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+
+} */
+/* .modal_btn {
+  justify-content: flex-end;
+} */
+.contact-fake-widonw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 95%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+}
+
+/* Style rule for div form */
+#form {
+  top: 70%;
+  position: relative;
+  color: #ffff;
+  /* width: 60%; */
+  margin: 0 auto 0 auto;
+}
+/* 
+button {
+  display: block;
+} */
+/* Style rule for btn close and tittle */
+.form-tittle-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+
+.modal-btn-container {
+  font-size: 1.25em;
+  padding: 1%;
+  /* border-radius: 50%; */
+}
+
+.modal-btn-container button {
+  border-radius: 5px;
+  padding: 4%;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+#form h2 {
+  text-align: center;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #893fb72b;
+  border-radius: 5px;
+  /* width: 50em; */
+  /* margin: 0 auto; */
+  grid-gap: 20px;
+  padding: 2%;
+}
+
+#submit,
+.modal_btn {
+  /* display: block; */
+  font-size: 1.25em;
+  margin: 0 auto 0 auto;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+#submit {
+  margin-top: 0.5%;
+}
+
+.btn {
+  grid-column: 1 / span 2;
+}
+
+/* Style rules for open and close contact secciton */
+.hide {
+  display: none;
+}
+/* .open {
+  display: block;
+} */
+
+/* Style rule for fieldset */
+label {
+  display: block;
+  padding: 2%;
+}
+
+input,
+textarea {
+  padding: 1% 2% 1% 2%;
+  /* margin-left: 1%; */
+  margin: 1%;
+}
+
+/* Style rule for button open Contac */
+.contact-btn {
+  padding-bottom: 20px;
+}
+/* 
+form {
+  height: 60em;
+}
+form #submit {
+  display: block;
+  margin: 0 auto 0 auto;
+  font-size: 1.25em;
+  padding: 1%;
+  border-radius: 5px;
+} */
+
+/* Style Rule for footer */
+footer {
+  /* width: 100%; */
+  position: relative;
+  background-color: #19191b;
+  display: flex;
+  justify-content: center;
+  padding: 1% 0% 1% 0%;
+}
+
+.footer-ul {
+  background-color: #19191b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+/* .footer-li {
+  background-color: black;
+  padding: 10px 20px 10px 20px;
+
+  font-size: 2em;
+} */
+
+.footer-li a {
+  text-decoration: none;
+  color: #893fb7;
+}
+
+/* Style Rule for footer - li sub class hover */
+.footer-li a:hover {
+  color: #b087c9;
+}
+
+/* Style Rules for Desktop */
+/* MediaQuery Rule for LargerDeslTop */
+@media screen and (max-width: 1400px) {
+  body {
+    font-size: 18px;
+    /* padding-bottom: 170px; */
+  }
+
+  .contact-fake-widonw {
+    height: 96.6%;
+  }
+  /* footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  } */
+
+  .logo-container {
+    display: none;
+  }
+  .nav-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px dotted white; */
+  }
+  .nav-li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #545157;
+    /* padding-bottom: 2px; */
+  }
+
+  .summary-text-container {
+    width: 100%;
+  }
+  .summary-container {
+    margin: 0 auto;
+  }
+  .summary-container h2 {
+    text-align: center;
+  }
+  .summary-text-container p {
+    margin: 0 auto;
+    /* font-size: 15px; */
+  }
+
+  .summary-rogue {
+    margin: 0 auto;
+  }
+  .spec-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /* 
+  .spec-h2 {
+    margin: 0 auto;
+  } */
+
+  .spec-p-container {
+    height: 5em;
+  }
+  .spec-img {
+    width: 40px;
+  }
+  .spec-p {
+    /* text-align: center; */
+    padding-left: 50px;
+    /* border: 1px white solid; */
+    /* padding-left: 20px; */
+  }
+
+  .spec-block {
+    width: 100%;
+    /* height: 30%; */
+    margin-bottom: 10px;
+  }
+
+  /*Style Rule for Summary text-container */
+
+  .summary-aboutClass-features {
+    width: 100%;
+    /* padding-top: 20px; */
+    margin: 0 auto;
+  }
+
+  .summary-aboutClass {
+    display: block;
+  }
+  .features-container-blocks {
+    width: 29em;
+  }
+
+  .features-tittle-text {
+    width: 20em;
+    margin-left: 20px;
+  }
+  .image-container {
+    display: none;
+  }
+
+  .features-tittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5em;
+    /* background-color: rgb(220, 225, 223); */
+  }
+
+  /* MediaQ for TALENTS Container */
+  /* .talents-section {
+    flex-direction: column;
+    justify-content: space-between;
+  } */
+  .talents-section img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .talents-section p {
+    display: none;
+  }
+
+  .pve-talents img,
+  .pvp-talents img {
+    width: 18em;
+    height: 18em;
+  }
+
+  /* Style rule for Tips pvp */
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 1%;
+    width: 100%;
+    grid-gap: 15px;
+    margin: 2%;
+    align-self: center;
+  }
+
+  /* Style rule for tips-link-img */
+  .tips-links-class a img {
+    width: 10em;
+  }
+
+  .figcaption-link a {
+    font-size: 2em;
+  }
+
+  .tips-links-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+
+  .tips-links-container h2 {
+    text-align: center;
+  }
+
+  /* Style rule for pvp-profession-container */
+  .pvp-profession-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pvp-profession-container-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pvp-profession-img {
+    text-align: center;
+  }
+}
+
+/* Media Screen for Tablet for Form  */
+@media screen and (max-width: 1000px) {
+  .form-grid {
+    display: block;
+  }
+  /* Style rule for Form */
+  #form {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    top: 70%;
+  }
+}
+
+/* Media Screen for Tablet for talents section img */
+@media screen and (max-width: 878px) {
+  .talents-section img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* Style rule for Form */
+  #form {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    top: 60%;
+  }
+}
+
+/* MediaQuery for Mobille */
+@media screen and (max-width: 769px) {
+  body {
+    font-size: 12px;
+  }
+
+  .contact-fake-widonw {
+    height: 97.1%;
+  }
+
+  .nav-ul {
+    font-size: 12px;
+  }
+
+  .features-img img {
+    width: 4em;
+  }
+
+  .macros-section img {
+    width: 400px;
+    height: 400px;
+  }
+
+  /* .talents-section img {
+    width: 300px;
+    height: 300px;
+  } */
+
+  .pve-talents img,
+  .pvp-talents img {
+    width: 20em;
+    height: 20em;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 1%;
+    width: 100%;
+    grid-gap: 15px;
+    margin: 2%;
+    align-self: center;
+  }
+
+  /* Style rule for tips-link-img */
+  .tips-links-class a img {
+    width: 10em;
+  }
+
+  .figcaption-link a {
+    font-size: 2em;
+  }
+  /* Style rule for TIPS content ARTICLE pvp - pve */
+
+  footer {
+    font-size: 12px;
+  }
+}
+/* Media Screen for Mobile*/
+@media screen and (max-width: 668px) {
+  .talents-section img {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* Style rule for pvp-profession-img mobile */
+  .pvp-profession-img img {
+    width: 40em;
+  }
+}
+/* Media Screen for Print */
+@media print {
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+}
+/* MediaQuery Rule for TABLET */
+/* @media screen and (max-width: 880px) {
+  body {
+    font-size: 15px;
+  }
+  .nav-li {
+    font-size: 1.5em;
+  }
+
+  .tittle-container h1 {
+    font-size: 1.5em;
+  }
+
+  .tittle-container h3 {
+    font-size: 1em;
+  }
+
+  .banner img {
+    width: 50%;
+    height: 25%;
+    border: 10px solid black;
+    border-radius: 5px;
+    align-self: center;
+  }
+} */
+
+/* MediaQuery Rule for Mobille */
+/* @media screen and (max-width: 550px) {
+
+  header {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+  }
+  .nav-ul {
+    width: 100%;
+    display: block;
+  }
+} */
